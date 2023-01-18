@@ -21,13 +21,14 @@
     There are multiple json files in the project dir. Project configurations are mentioned in these files.  
         a. angular.json -> [Follow this](https://medium.com/nerd-for-tech/what-is-inside-of-angular-json-file-636e81e67651) to know abou the contents of angular.json file  
         b. package.json -> This file includes project metadata and can be created with the following command   
-        ```
+        ````
         
         npm init
         
-        ```  
+        ````  
         Follow [official nodejs docs](https://nodejs.org/en/knowledge/getting-started/npm/what-is-the-file-package-json/) to know more  
         c. tsconfig.json  -> Global typescript compiler configuration file which is used by the entire project.   
+        
         TypeScript is a primary language for Angular application development. It is a superset of JavaScript with design-time support for type safety and tooling.
         Browsers can't execute TypeScript directly. Typescript must be "transpiled" into JavaScript using the tsc compiler, which requires some configuration.
         [Angular Docs to know more](https://angular.io/guide/typescript-configuration)  
@@ -35,7 +36,7 @@
         [Angular Docs to know about configuration](https://angular.io/guide/typescript-configuration)
         [Difference b/w tsconfig.json and tsconfig.app.json](https://stackoverflow.com/questions/54898013/difference-between-tsconfig-json-and-tsconfig-app-json-files-in-angular)  
         e. tsconfig.spec.json -> Typescript configuration for app tests
-        [Refer to this](https://angular.io/guide/typescript-configuration)  
-        f. package-lock.json -> Tracks exact dependency tree at any given time. Follow [npm docs](https://docs.npmjs.com/cli/v9/configuring-npm/package-lock-json) to know more about this file  
+        [Refer to this](https://angular.io/guide/typescript-configuration)
+        f. package-lock.json -> Tracks exact dependency tree at any given time. Follow [npm docs](https://docs.npmjs.com/cli/v9/configuring-npm/package-lock-json) to know more about this file
 
 Carry out discussion on the test here
