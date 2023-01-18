@@ -21,11 +21,9 @@
     There are multiple json files in the project dir. Project configurations are mentioned in these files.  
         a. angular.json -> [Follow this](https://medium.com/nerd-for-tech/what-is-inside-of-angular-json-file-636e81e67651) to know abou the contents of angular.json file  
         b. package.json -> This file includes project metadata and can be created with the following command   
-        ````
-        
+        ```
         npm init
-        
-        ````  
+        ```  
         Follow [official nodejs docs](https://nodejs.org/en/knowledge/getting-started/npm/what-is-the-file-package-json/) to know more  
         c. tsconfig.json  -> Global typescript compiler configuration file which is used by the entire project.   
         
